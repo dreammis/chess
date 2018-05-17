@@ -86,6 +86,10 @@ class MemberInRoomNotFoundError(SongChessError):
     _error = Error(403, '该用户在房间记录不存在', 404)
 
 
+class MemberInRoomAlreadyIn(SongChessError):
+    _error = Error(403, '该用户已经在房间中', 404)
+
+
 class IncorrectPasswordError(SongChessError):
     _error = Error(404, '密码错误', 400)
 

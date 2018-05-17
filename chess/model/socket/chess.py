@@ -14,6 +14,9 @@ class ChessNamespace(Namespace):
     def on_update_chess_records(self, kwargs):
         emit('chess_records_update', {'data': kwargs['data']}, **kwargs)
 
+    def on_ping(self):
+        emit('pong')
+
     #
     # def on_join(self, message):
     #     """
