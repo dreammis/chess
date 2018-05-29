@@ -21,3 +21,8 @@ Simple introduction of the project
 I use django on my work, first use the flask on the production
 
 Thanks to the @wangzhihao1995, learn a lot from his Repositories [PyBlackMarket](https://github.com/wangzhihao1995/PyBlackMarket)
+
+![1](https://github.com/dreammis/chess/blob/master/pics/sample1.jpg)
+![2](https://github.com/dreammis/chess/blob/master/pics/sample2.jpg)
+![3](https://github.com/dreammis/chess/blob/master/pics/sample3.jpg)
+![4](https://github.com/dreammis/chess/blob/master/pics/sample4.jpg)
