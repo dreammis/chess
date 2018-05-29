@@ -1,4 +1,4 @@
-from flask_socketio import Namespace, emit, join_room, leave_room
+from flask_socketio import Namespace, emit, join_room, leave_room, disconnect
 
 
 class ChessNamespace(Namespace):
@@ -16,6 +16,10 @@ class ChessNamespace(Namespace):
 
     def on_ping(self):
         emit('pong')
+
+    def on_disconnect(self):
+        emit('disconnect', {'data': 'Disconnected!'})
+        disconnect()
 
     #
     # def on_join(self, message):

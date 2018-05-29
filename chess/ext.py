@@ -6,7 +6,7 @@ from flask_socketio import SocketIO
 
 db = SQLAlchemy()
 ma = Marshmallow()
-si = SocketIO()
+si = SocketIO(async_mode="eventlet")
 
 
 # START 这里是Sentry对flask的支持，暂时不需要

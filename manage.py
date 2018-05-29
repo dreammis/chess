@@ -40,5 +40,5 @@ def create_db():
     db.create_all()
 
 if __name__ == '__main__':
-    si.run(app, host=SongConfig.HTTP_HOST, port=SongConfig.HTTP_PORT, debug=False)
+    si.run(app, host=SongConfig.HTTP_HOST, port=int(SongConfig.HTTP_PORT), debug=False)
 
